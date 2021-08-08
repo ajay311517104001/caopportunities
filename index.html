@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" class="">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+	<meta name="HandheldFriendly" content="true" >
+	<meta name="MobileOptimized" content="width">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>CanEd Home</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+				:root {
+					--theme-color-primary: #ee4136;
+					--theme-color-primary-darken-1: hsl(3.59, 84%, 55%);
+					--theme-color-primary-darken-2: hsl(3.59, 84%, 52%);
+					--theme-color-primary-darken-3: hsl(3.59, 84%, 47%);
+					--theme-color-primary-lighten-1: hsl(3.59, 84%, 67%);
+					--theme-color-primary-opacity-0_1: rgba(238, 65, 54, 0.1);
+					--theme-color-primary-opacity-0_2: rgba(238, 65, 54, 0.2);
+					--theme-color-primary-opacity-0_3: rgba(238, 65, 54, 0.3);
+					--theme-color-primary-opacity-0_4: rgba(238, 65, 54, 0.4);
+					--theme-color-primary-opacity-0_6: rgba(238, 65, 54, 0.6);
+					--theme-color-primary-opacity-0_8: rgba(238, 65, 54, 0.8);
+					--theme-color-primary-opacity-0_9: rgba(238, 65, 54, 0.9);
+					--theme-color-main: #333333;
+					--theme-color-secondary: hsl(3.59, 20%, 80%);
+					--theme-color-title: #333333;
+					--theme-color-strict-inverse: #ffffff;
+				}
+			</style>
+<style type="text/css">
+							:root {
+								--theme-color-b24button: var(--theme-color-primary);
+							}
+						</style>
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {
+
+var cl = "bx-core";
+var ht = d.documentElement;
+var htc = ht ? ht.className : undefined;
+if (htc === undefined || htc.indexOf(cl) !== -1)
+{
+return;
+}
+
+var ua = n.userAgent;
+if (/(iPad;)|(iPhone;)/i.test(ua))
+{
+cl += " bx-ios";
+}
+else if (/Android/i.test(ua))
+{
+cl += " bx-android";
+}
+
+cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");
+
+cl += w.devicePixelRatio && w.devicePixelRatio >= 2
+? " bx-retina"
+: " bx-no-retina";
+
+var ieVersion = -1;
+if (/AppleWebKit/.test(ua))
+{
+cl += " bx-chrome";
+}
+else if ((ieVersion = getIeVersion()) > 0)
+{
+cl += " bx-ie bx-ie" + ieVersion;
+if (ieVersion > 7 && ieVersion < 10 && !isDoctype())
+{
+cl += " bx-quirks";
+}
+}
+else if (/Opera/.test(ua))
+{
+cl += " bx-opera";
+}
+else if (/Gecko/.test(ua))
+{
+cl += " bx-firefox";
+}
+
+if (/Macintosh/i.test(ua))
+{
+cl += " bx-mac";
+}
+
+ht.className = htc ? htc + " " + cl : cl;
+
+function isDoctype()
+{
+if (d.compatMode)
+{
+return d.compatMode == "CSS1Compat";
+}
+
+return d.documentElement && d.documentElement.clientHeight;
+}
+
+function getIeVersion()
+{
+if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua))
+{
+return -1;
+}
+
+var rv = -1;
+if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w))
+{
+rv = 11;
+}
+else if (!!d.documentMode && d.documentMode >= 10)
+{
+rv = 10;
+}
+else if (!!d.documentMode && d.documentMode >= 9)
+{
+rv = 9;
+}
+else if (d.attachEvent && !/Opera/.test(ua))
+{
+rv = 8;
+}
+
+if (rv == -1 || rv == 8)
+{
+var re;
+if (n.appName == "Microsoft Internet Explorer")
+{
+re = new RegExp("MSIE ([0-9]+[\.0-9]*)");
+if (re.exec(ua) != null)
+{
+rv = parseFloat(RegExp.$1);
+}
+}
+else if (n.appName == "Netscape")
+{
+rv = 11;
+re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");
+if (re.exec(ua) != null)
+{
+rv = parseFloat(RegExp.$1);
+}
+}
+}
+
+return rv;
+}
+
+})(window, document, navigator);</script>
+
+<link href="/index.css" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/intranet/intranet-common.minc5db.css?156700641462422" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/ui/fonts/opensans/ui.font.opensans.mind2e2.css?16202983792409" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/popup/dist/main.popup.bundle.min0aee.css?162047417023420" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/main/sidepanel/css/sidepanel.mina41b.css?16222196167973" type="text/css"  rel="stylesheet" />
+<link href="bitrix/js/landing/css/landing_public.min6e89.css?1567508327250" type="text/css"  rel="stylesheet" />
+<link href="bitrix/components/bitrix/landing.pub/templates/.default/style.min7347.css?162393658937024" type="text/css"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/assets/vendor/bootstrap/bootstrap.minea04.css?1620988921156519" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/theme.min6b58.css?1623936590604525" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/assets/css/custom-grid.min045e.css?156933840138" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="bitrix/templates/landing24/template_styles.min832e.css?16209889212316" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+
+
+
+
+<meta name="robots" content="noindex" />
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/fa/font.woff" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/fa/font.woff2" as="font" crossorigin="anonymous" type="font/woff2" crossorigin>
+<style>.fa-angle-left:before{content:"\f104";}.fa-angle-right:before{content:"\f105";}</style>
+<style>.fa-chevron-left:before{content:"\f053";}.fa-chevron-right:before{content:"\f054";}</style>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/icon/font.woff" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
+<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/icon/font.woff2" as="font" crossorigin="anonymous" type="font/woff2" crossorigin>
+<style>.icon-globe:before{content:"\e037";}.icon-call-in:before{content:"\e047";}.icon-envelope:before{content:"\e086";}.icon-earphones-alt:before{content:"\e03c";}</style>
+<style>.fa-facebook:before{content:"\f09a";}.fa-instagram:before{content:"\f16d";}.fa-twitter:before{content:"\f099";}.fa-youtube:before{content:"\f167";}.fa-telegram:before{content:"\f2c6";}.fa-whatsapp:before{content:"\f232";}</style>
+<link 
+						rel="preload" 
+						as="style" 
+						onload="this.removeAttribute('onload');this.rel='stylesheet'" 
+						data-font="g-font-roboto" 
+						data-protected="true" 
+						href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+					<noscript>
+						<link
+							rel="stylesheet" 
+							data-font="g-font-roboto" 
+							data-protected="true" 
+							href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+					</noscript>
+<style>
+				body {
+					font-weight: 400;
+					font-family: "Roboto", Arial, sans-serif;
+					
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					-moz-font-feature-settings: "liga", "kern";
+					text-rendering: optimizelegibility;
+				}
+			</style>
+<link 
+						rel="preload" 
+						as="style" 
+						onload="this.removeAttribute('onload');this.rel='stylesheet'" 
+						data-font="g-font-roboto-slab" 
+						data-protected="true" 
+						href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+					<noscript>
+						<link
+							rel="stylesheet" 
+							data-font="g-font-roboto-slab" 
+							data-protected="true" 
+							href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+					</noscript>
+<style>
+				h1, h2, h3, h4, h5, h6 {
+					font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+				}
+			</style>
+<style>
+			html {font-size: 14px;}
+			body {font-size: 1rem;}
+			.g-font-size-default {font-size: 1rem;}
+		</style>
+<style>
+				body {
+					line-height: 1.6;
+					font-weight: ;
+				}
+				
+				.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+				h1, h2, h3, h4, h5, h6 {
+					font-weight: ;
+				}
+			</style>
+<meta property="og:title" content="CanEd Overseas Consultants" /><meta property="og:description" content="Providing Study Abroad services including Counselling, College admissions, Visa processing and Post arrival services." /><meta property="og:image" content="https://cdn.bitrix24.com/b10245137/landing/d6a/d6a42257a61a51daac893807cb8c229c/Picture5_1x.png" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="690" /><meta property="og:type" content="website" /><meta property="twitter:title" content="CanEd Overseas Consultants" /><meta property="twitter:description" content="Providing Study Abroad services including Counselling, College admissions, Visa processing and Post arrival services." /><meta property="twitter:image" content="https://cdn.bitrix24.com/b10245137/landing/d6a/d6a42257a61a51daac893807cb8c229c/Picture5_1x.png" /><meta name="twitter:card" content="summary_large_image" /><meta property="twitter:type" content="website" /> <meta property="Bitrix24SiteType" content="page" /> <meta property="og:url" content="https://canedconsulting.ca/" />
+<link rel="canonical" href="index.html"/><link 
+						rel="preload" 
+						as="style" 
+						onload="this.removeAttribute('onload');this.rel='stylesheet'" 
+						data-font="g-font-roboto-slab" 
+						data-protected="true" 
+						href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+					<noscript>
+						<link
+							rel="stylesheet" 
+							data-font="g-font-roboto-slab" 
+							data-protected="true" 
+							href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+					</noscript>
+				<!-- EMAILJS -->
+					<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+				
+								
+				
+				
+				
+ 
+	
+				
+				
+				<!--custom css for floating button------------------------------------ -->
+				<script src="https://kit.fontawesome.com/2e629c444a.js" crossorigin="anonymous"></script>
+				<style>
+					body {
+	background-color: #f5f5f5;
+}
+
+.adminActions {
+  position: fixed;
+  bottom: 35px; right: 35px;
+}
+
+  .adminButton {
+    height: 60px;
+    width: 60px;
+    background-color: rgba(67, 83, 143, .8);
+    border-radius: 50%;
+    display: block;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+    .adminButton i {
+      font-size: 22px;
+    }
+
+  .adminButtons {
+    position: absolute;
+    width: 100%;
+    bottom: 120%;
+    text-align: center;
+  }
+
+    .adminButtons a {
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      text-decoration: none;
+      margin: 10px auto 0;
+      line-height: 1.15;
+      color: #fff;
+      opacity: 0;
+      visibility: hidden;
+      position: relative;
+      box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
+    }
+
+      .adminButtons a:hover {
+        transform: scale(1.05);
+      }
+
+      .adminButtons a:nth-child(1) {background-color: #ff5722; transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;}
+      .adminButtons a:nth-child(2) {background-color: #03a9f4; transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;}
+      .adminButtons a:nth-child(3) {background-color: #f44336; transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;}
+      .adminButtons a:nth-child(4) {background-color: #4CAF50; transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;}
+
+      .adminActions a i {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+  .adminToggle {
+    -webkit-appearance: none;
+    position: absolute;
+    border-radius: 50%;
+    top: 0; left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 2;
+    transition: box-shadow .2s ease-in-out;
+    box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
+  }
+
+    .adminToggle:hover {
+      box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
+    }
+
+    .adminToggle:checked ~ .adminButtons a {
+      opacity: 1;
+      visibility: visible;
+    }
+				</style>
+				
+				
+				<!--styles for feedback form  -->
+
+			<style>
+
+				
+    /* ============================================== */
+    
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  /* border: 3px solid #f1f1f1; */
+  z-index: 15;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 25vw;
+  margin-right: -13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] , textarea{
+  width: 100%;
+    padding: 9px 20px;
+    border: 1px solid #e1e2eb;
+    background-color: #fff;
+    color: #102a43;
+    caret-color: #829ab1;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 29px;
+    line-height: 2rem;
+    box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+    border-radius: 3px;
+    line-height: 29px;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus,textarea {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+			</style>	
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				</head>
+<body class="landing-b24button-use-style" >
+	<!-- custom -->
+
+	
+
+
+
+
+<main class="w-100 landing-public-mode" ><div id="block395" class="block-wrapper block-0-menu-19-travel"><header class="landing-block landing-block-menu u-header u-header--sticky u-header--float">
+	<div class="u-header__section g-bg-black-opacity-0_5 g-bg-transparent--lg g-transition-0_3 g-py-12" data-header-fix-moment-exclude="g-bg-black-opacity-0_5 g-bg-transparent--lg g-py-12" data-header-fix-moment-classes="g-theme-travel-bg-black-v1-opacity-0_8 g-py-7">
+		<nav class="navbar navbar-expand-lg g-py-0 g-px-10">
+			<div class="container">
+				<!-- Logo -->
+				<a href="#" class="navbar-brand landing-block-node-menu-logo-link u-header__logo p-0" target="_self">
+					<img class="landing-block-node-menu-logo u-header__logo-img u-header__logo-img--main g-max-width-180" src="./cdn.bitrix24.com/b10245137/landing/4d8/4d89270f753f5544862d2f8bd27eafc3/Logo1-May_2017_1x.png" alt="" srcset="https://cdn.bitrix24.com/b10245137/landing/6ee/6ee5c572ba9251e4ac11e98fc8b78adb/Logo1-May_2017_2x.png 2x" data-fileid="4007" data-fileid2x="4009" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" />
+				</a>
+				<!-- End Logo -->
+
+				<!-- Navigation -->
+				<div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar295">
+					<ul class="landing-block-node-menu-list js-scroll-nav navbar-nav text-uppercase g-font-weight-700 g-font-size-11 g-pt-20 g-pt-0--lg ml-auto"><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#block403" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">About Us</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#block405" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">Our Colleges</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#block411" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">Our Services</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#block407" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">Offers</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#block421" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">Testimonials</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#block415" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">Gallery</a>
+						</li><li class="landing-block-node-menu-list-item nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+							<a href="index.html#block425" class="landing-block-node-menu-list-item-link nav-link p-0" target="_self">Contact Us</a>
+						</li></ul>
+				</div>
+				<!-- End Navigation -->
+
+				<!-- Responsive Toggle Button -->
+				<button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 ml-auto g-flex-centered-item--center" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar295" data-toggle="collapse" data-target="#navBar295">
+                <span class="hamburger hamburger--slider">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </span>
+				</button>
+				<!-- End Responsive Toggle Button -->
+			</div>
+		</nav>
+	</div>
+</header></div><div id="b441" class="block-wrapper block-43-4-cover-with-price-text-button-bgimg">
+	<section class="landing-block">
+	<div class="js-carousel g-overflow-hidden" data-autoplay="true" data-infinite="true" data-fade="true" data-speed="5000" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30"><div class="landing-block-node-card js-slide">
+			<div class="landing-block-node-card-bgimg d-flex align-items-center justify-content-center g-bg-img-hero u-bg-overlay g-bg-black-opacity-0_4--after g-min-height-100vh w-100 h-100 g-px-5" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjIwIiBoZWlnaHQ9IjEwODAiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+);" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="4287" data-fileid2x="4289" data-lazy-bg="Y" data-style="background-image: url('./cdn.bitrix24.com/b10245137/landing/c6c/c6c5a56dace25af581c99717b1e45a47/Canada_Toronto_1x.jpg'); background-image: -webkit-image-set(url('./cdn.bitrix24.com/b10245137/landing/c6c/c6c5a56dace25af581c99717b1e45a47/Canada_Toronto_1x.jpg') 1x, url('./cdn.bitrix24.com/b10245137/landing/ed5/ed56f888788150096c11b75617526e0a/Canada_Toronto_2x.jpg') 2x); background-image: image-set(url('./cdn.bitrix24.com/b10245137/landing/c6c/c6c5a56dace25af581c99717b1e45a47/Canada_Toronto_1x.jpg') 1x, url('./cdn.bitrix24.com/b10245137/landing/ed5/ed56f888788150096c11b75617526e0a/Canada_Toronto_2x.jpg') 2x);" data-src="./cdn.bitrix24.com/b10245137/landing/ed5/ed56f888788150096c11b75617526e0a/Canada_Toronto_2x.jpg" >
+					<div class="landing-block-node-card-container js-animation fadeIn container u-bg-overlay__inner g-mx-0 g-pa-0 g-max-width-800">
+
+
+						<h3 class="landing-block-node-card-title landing-semantic-title-image-big text-uppercase g-pos-rel g-line-height-1 g-font-weight-700 g-font-size-75 g-color-white g-mb-10">Canada</h3>
+
+						<div class="g-pos-rel g-line-height-1_2">
+							<div class="landing-block-node-card-text landing-semantic-text-image-medium g-mb-20 g-font-size-18 g-color-white-opacity-0_8" data-auto-font-scale=""><p>Consistently ranked as one of the top countries in the world with regards to quality of life and educational standards. Vibrant country, wide scope for new immigrants to settle down.<br /></p></div>
+							<div class="landing-block-node-card-button-container">
+
+							</div>
+						</div>
+					</div>
+			</div>
+		</div><div class="landing-block-node-card js-slide">
+			<div class="landing-block-node-card-bgimg d-flex align-items-center justify-content-center g-bg-img-hero u-bg-overlay g-bg-black-opacity-0_4--after g-min-height-100vh w-100 h-100 g-px-5" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+);" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-bg="Y" data-style="background-image: url('./cdn.bitrix24.site/bitrix/images/landing/business/1920x1280/img12.jpg');" data-src="./cdn.bitrix24.site/bitrix/images/landing/business/1920x1280/img12.jpg">
+					<div class="landing-block-node-card-container js-animation fadeIn container u-bg-overlay__inner g-mx-0 g-pa-0 g-max-width-800">
+
+
+						<h3 class="landing-block-node-card-title landing-semantic-title-image-big text-uppercase g-pos-rel g-line-height-1 g-font-weight-700 g-font-size-75 g-color-white g-mb-10">USA</h3>
+
+						<div class="g-pos-rel g-line-height-1_2">
+							<div class="landing-block-node-card-text landing-semantic-text-image-medium g-mb-20 g-font-size-18 g-color-white-opacity-0_8" data-auto-font-scale=""><p>USA has the world’s largest international student population, with more than 1,000,000 students choosing to broaden their education and life experience in the United States<br /></p></div>
+							<div class="landing-block-node-card-button-container">
+
+							</div>
+						</div>
+					</div>
+			</div>
+		</div></div>
+
+</section></div><div id="block403" class="block-wrapper block-04-7-one-col-fix-with-title-and-text-2"><section class="landing-block g-pt-60 g-bg-white js-animation fadeInUp animated g-pb-20" >
+
+        <div class="container text-center g-max-width-800">
+
+            <div class="landing-block-node-inner text-uppercase u-heading-v2-4--bottom g-brd-primary">
+
+                <h2 class="landing-block-node-title u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-mb-minus-10 g-color-primary" style="color: red !important;">ABOUT<span style="color: rgb(33, 33, 33);">US</span></h2>
+            </div>
+
+			<div class="landing-block-node-text g-color-gray-dark-v3"><p>Established in 2014, we are one of the prominent education consultants in Canada with over 6 years of experience offering academic counseling, documentation guidance, college admissions and post arrival services for students. With Toronto and Vancouver offices in Canada complemented with branch offices in India as well as partner associates all over India from Kerala to Jammu Kashmir, we are able to serve our clients from across the country from South to North India. </p></div>
+        </div>
+
+    </section></div><div id="block435" class="block-wrapper block-09-1-two-cols-fix-text-and-image-slider-2">
+		<section class="landing-block g-pb-80 g-pl-auto g-mt-auto g-pt-50" ">
+        <div class="container">
+            <div class="row">
+
+                <div class="landing-block-node-carousel-container js-animation fadeInLeft col-lg-8 order-2 order-md-1">
+                    <div class="landing-block-node-carousel js-carousel g-line-height-0 row" data-infinite="true" data-speed="5000" data-rows="2" data-slides-show="2" data-arrows-classes="u-arrow-v1 g-pos-abs g-bottom-100x g-right-0 g-width-35 g-height-35 g-color-gray g-color-white--hover g-bg-gray-light-v5 g-bg-primary--hover g-mb-5 g-transition-0_2 g-transition--ease-in" data-arrow-left-classes="fa fa-angle-left g-mr-50" data-arrow-right-classes="fa fa-angle-right g-mr-5" data-responsive="[{
+							 &quot;breakpoint&quot;: 1200,
+							 &quot;settings&quot;: {
+							   &quot;slidesToShow&quot;: 2
+							 }
+						   }, {
+							 &quot;breakpoint&quot;: 768,
+							 &quot;settings&quot;: {
+							   &quot;slidesToShow&quot;: 1
+							 }
+						   }]" data-init-classes-exclude="[{
+							 &quot;selector&quot;: &quot;.landing-block-node-carousel-element&quot;,
+							 &quot;class&quot;: &quot;col-12 col-sm-6 col-lg-6&quot;
+						   }, {
+							 &quot;selector&quot;: &quot;.js-carousel&quot;,
+							 &quot;class&quot;: &quot;row&quot;
+						   }]"><div class="landing-block-node-carousel-element landing-block-card-carousel-element js-slide g-pa-5 col-12 col-sm-6 col-lg-6">
+                            <div class="g-parent g-pos-rel g-overflow-hidden">
+                                <img class="landing-block-node-carousel-element-img img-fluid w-100 g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTUiIGhlaWdodD0iMzU1Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/400x269/img9.jpg" loading="lazy" />
+                                <div class="landing-block-node-carousel-element-img-hover g-pointer-events-none--public-mode g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
+                                    <h3 class="landing-block-node-carousel-element-title landing-semantic-subtitle-small text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">Counselling Team</h3>
+
+                                </div>
+                            </div>
+                        </div><div class="landing-block-node-carousel-element landing-block-card-carousel-element js-slide g-pa-5 col-12 col-sm-6 col-lg-6">
+                            <div class="g-parent g-pos-rel g-overflow-hidden">
+                                <img class="landing-block-node-carousel-element-img img-fluid w-100 g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTUiIGhlaWdodD0iMzU1Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/400x269/img10.jpg" loading="lazy" />
+                                <div class="landing-block-node-carousel-element-img-hover g-pointer-events-none--public-mode g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
+                                    <h3 class="landing-block-node-carousel-element-title landing-semantic-subtitle-small text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">Technology &amp; development</h3>
+
+                                </div>
+                            </div>
+                        </div><div class="landing-block-node-carousel-element landing-block-card-carousel-element js-slide g-pa-5 col-12 col-sm-6 col-lg-6">
+                            <div class="g-parent g-pos-rel g-overflow-hidden">
+                                <img class="landing-block-node-carousel-element-img img-fluid w-100 g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTUiIGhlaWdodD0iMzU1Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/400x269/img11.jpg" loading="lazy" />
+                                <div class="landing-block-node-carousel-element-img-hover g-pointer-events-none--public-mode g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
+                                    <h3 class="landing-block-node-carousel-element-title landing-semantic-subtitle-small text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">Transparent Offering </h3>
+
+                                </div>
+                            </div>
+                        </div><div class="landing-block-node-carousel-element landing-block-card-carousel-element js-slide g-pa-5 col-12 col-sm-6 col-lg-6">
+                            <div class="g-parent g-pos-rel g-overflow-hidden">
+                                <img class="landing-block-node-carousel-element-img img-fluid w-100 g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTUiIGhlaWdodD0iMzU1Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/400x269/img12.jpg" loading="lazy" />
+                                <div class="landing-block-node-carousel-element-img-hover g-pointer-events-none--public-mode g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
+                                    <h3 class="landing-block-node-carousel-element-title landing-semantic-subtitle-small text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">Marketing group</h3>
+
+                                </div>
+                            </div>
+                        </div><div class="landing-block-node-carousel-element landing-block-card-carousel-element js-slide g-pa-5 col-12 col-sm-6 col-lg-6">
+                            <div class="g-parent g-pos-rel g-overflow-hidden">
+                                <img class="landing-block-node-carousel-element-img img-fluid w-100 g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTUiIGhlaWdodD0iMzU1Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/400x269/img5.jpg" loading="lazy" />
+                                <div class="landing-block-node-carousel-element-img-hover g-pointer-events-none--public-mode g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
+                                    <h3 class="landing-block-node-carousel-element-title landing-semantic-subtitle-small text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">Software</h3>
+
+                                </div>
+                            </div>
+                        </div><div class="landing-block-node-carousel-element landing-block-card-carousel-element js-slide g-pa-5 col-12 col-sm-6 col-lg-6">
+                            <div class="g-parent g-pos-rel g-overflow-hidden">
+                                <img class="landing-block-node-carousel-element-img img-fluid w-100 g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTUiIGhlaWdodD0iMzU1Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/400x269/img6.jpg" loading="lazy" />
+                                <div class="landing-block-node-carousel-element-img-hover g-pointer-events-none--public-mode g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
+                                    <h3 class="landing-block-node-carousel-element-title landing-semantic-subtitle-small text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">Support &amp; development</h3>
+
+                                </div>
+                            </div>
+                        </div><div class="landing-block-node-carousel-element landing-block-card-carousel-element js-slide g-pa-5 col-12 col-sm-6 col-lg-6">
+                            <div class="g-parent g-pos-rel g-overflow-hidden">
+                                <img class="landing-block-node-carousel-element-img img-fluid w-100 g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTUiIGhlaWdodD0iMzU1Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/400x269/img7.jpg" loading="lazy" />
+                                <div class="landing-block-node-carousel-element-img-hover g-pointer-events-none--public-mode g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
+                                    <h3 class="landing-block-node-carousel-element-title landing-semantic-subtitle-small text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">Global Support</h3>
+
+                                </div>
+                            </div>
+                        </div><div class="landing-block-node-carousel-element landing-block-card-carousel-element js-slide g-pa-5 col-12 col-sm-6 col-lg-6">
+                            <div class="g-parent g-pos-rel g-overflow-hidden">
+                                <img class="landing-block-node-carousel-element-img img-fluid w-100 g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNTUiIGhlaWdodD0iMzU1Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/400x269/img8.jpg" loading="lazy" />
+                                <div class="landing-block-node-carousel-element-img-hover g-pointer-events-none--public-mode g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
+                                    <h3 class="landing-block-node-carousel-element-title landing-semantic-subtitle-small text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">Immigration Consultant</h3>
+
+                                </div>
+                            </div>
+                        </div></div>
+                </div>
+
+				<div style="background-color: black !important; border-radius: 10px;" class="landing-block-node-text-container d-flex js-animation fadeInRight col-lg-4 g-mb-40 g-mb-0--lg order-1 order-md-2">
+					<div>
+						<div class="landing-block-node-header text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-40">
+							<h4 class="landing-block-node-subtitle landing-semantic-subtitle-small-primary h6 g-font-weight-700 g-font-size-12 g-letter-spacing-1 g-color-primary g-mb-20"> </h4>
+							<h2 class="landing-block-node-title landing-semantic-title-small h1 u-heading-v2__title g-line-height-1_3 g-font-weight-700 g-mb-minus-10 g-font-size-30" style="color: white;"><span style="color: red !important;">We are</span> the
+best</h2>
+						</div>
+
+						<div class="landing-block-node-text landing-semantic-text-medium g-font-weight-auto g-mb-auto"><p style="color: white !important;">Being in Canada (Toronto and Vancouver), we are able to leverage with the colleges in Canada and our offices in India to streamline the recruitment process and ensure the shortest turn around time.</p><p style="color: white !important;">Our experienced team of consultants will provide appropriate advise and represent the clients throughout the recruitment process life cycle. We ensure quality services to prospective students (local and international) to choose preferred universities, programs, obtain admission and chase their dreams of completing the education in Canada successfully. <br /></p><p style="color: white !important;">We also work with renowned immigration specialists in Canada to guide the students through the entire visa process as well as help them with the immigration process to settle down in Canada. Our mandate is to provide a one-stop solution to our clients both before and after they move to Canada.<br /></p></div>
+					</div>
+				</div>
+
+            </div>
+        </div>
+    </section></div><div id="block405" class="block-wrapper block-01-big-with-text-3"><section class="landing-block landing-block-node-img u-bg-overlay g-flex-centered g-bg-img-hero g-bg-black-opacity-0_5--after g-pt-80 g-pb-80 g-min-height-60vh" style="background-image: url('./cdn.bitrix24.site/bitrix/images/landing/business/1400x534/img1.jpg');" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}">
+	<div class="container g-max-width-800 text-center u-bg-overlay__inner g-mx-1 js-animation landing-block-node-container fadeInDown">
+		<h2 class="landing-block-node-title text-uppercase g-line-height-1 g-font-weight-700 g-mb-20 g-font-size-60 g-color-primary">OUR PARTNER <span style="color: rgb(245, 245, 245);">INSTITUTIONS</span></h2>
+
+		<div class="landing-block-node-text g-color-white-opacity-0_7 g-mb-35" data-auto-font-scale="">We work as an authorized representative for 20+ colleges all over canada and recruit students from India, Middle East, Columbia and locally. </div>
+		<div class="landing-block-node-button-container">
+			<a href="index.html#block425" class="landing-block-node-button btn g-btn-primary g-btn-type-solid g-btn-px-l g-btn-size-md text-uppercase g-py-15 g-mb-15 rounded-0" target="_self">CONTACT US</a>
+		</div>
+	</div>
+</section></div><div id="block429" class="block-wrapper block-12-image-carousel-6-cols-fix"><section class="landing-block js-animation zoomIn text-center g-pt-20 g-pb-20">
+	<div class="container g-px-35 g-px-0--md">
+		<div class="js-carousel row" data-autoplay="true" data-pause-hover="true" data-infinite="true" data-slides-show="6" data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-45 g-height-45 g-font-size-30 g-color-gray-light-v1" data-arrow-left-classes="fa fa-angle-left g-left-minus-35" data-arrow-right-classes="fa fa-angle-right g-right-minus-35" data-responsive="[{
+					 &quot;breakpoint&quot;: 1200,
+					 &quot;settings&quot;: {
+					   &quot;slidesToShow&quot;: 5
+					 }
+				   }, {
+					 &quot;breakpoint&quot;: 992,
+					 &quot;settings&quot;: {
+					   &quot;slidesToShow&quot;: 4
+					 }
+				   }, {
+					 &quot;breakpoint&quot;: 768,
+					 &quot;settings&quot;: {
+					   &quot;slidesToShow&quot;: 3
+					 }
+				   }, {
+					 &quot;breakpoint&quot;: 576,
+					 &quot;settings&quot;: {
+					   &quot;slidesToShow&quot;: 2
+					 }
+				   }]" data-init-classes-exclude="[{
+					 &quot;selector&quot;: &quot;.landing-block-card-carousel-item&quot;,
+					 &quot;class&quot;: &quot;col-6 col-sm-4 col-lg-2&quot;
+				   }, {
+					 &quot;selector&quot;: &quot;.js-carousel&quot;,
+					 &quot;class&quot;: &quot;row&quot;
+				   }]"><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNjQiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="3945" data-fileid2x="3947" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/dc8/dc8538c22d10f67d41757a2f0709a5bb/Cambrian_College_1x.png" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/186/1862b9350796c9a1325454124061e8ab/Cambrian_College_2x.png 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNzEiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="3949" data-fileid2x="3951" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/44b/44bea79e108d72fd17336d2bf25d1e7a/Canadore_College_1x.png" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/de1/de1cba99ce837d2073578b76c3f8b4c7/Canadore_College_2x.png 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTU3Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="3953" data-fileid2x="3955" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/f1f/f1fdc92ea59df1f3354eb5e7b1f2d41b/Conestoga_College_1x.png" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/6ff/6ffede4ce74222b699cd89d1a9650400/Conestoga_College_2x.png 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNDAiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="3957" data-fileid2x="3959" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/52d/52d89d7991ce8031685f7000e465c2ea/St.Clair_College_1x.png" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/50c/50c5fde24572e4299344bb25600c9fac/St.Clair_College_2x.png 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="3961" data-fileid2x="3963" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/0c3/0c305f137049d0966480ab72ceb70a3d/Algonquin_College_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/fdd/fdd2d527a10326548016e23e17c7bf6e/Algonquin_College_2x.jpg 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iOTgiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="3965" data-fileid2x="3967" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/97f/97f1f45db9ded9716d2f0f9c98c2199c/Algoma_University_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/e26/e26e70842accf6d7be652848ebc8a324/Algoma_University_2x.jpg 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTMxIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="3969" data-fileid2x="3971" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/fa3/fa342436fe3e27d0b0c3490aa163b269/Centennial_College_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/1c2/1c2c6a44ef0629f96af1330e88dbc7d4/Centennial_College_2x.jpg 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNTciPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="3973" data-fileid2x="3975" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/8e4/8e46231a87593f3d284a50724bff46b8/Cape_Breton_University_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/752/752d7804e6883c0d8e1cedd7ecf987f8/Cape_Breton_University_2x.jpg 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTMzIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="4013" data-fileid2x="4015" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/860/860411ead9eb910959ce16e06d60dd65/Holland_College_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/d91/d91e5974adec6993c574bc205bf5bacd/Holland_College_2x.jpg 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNjQiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="4017" data-fileid2x="4019" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/e52/e521b49bd56629ba8fb1d9bd02522bbc/University_Canada_West_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/a15/a15faeff16caa494a6bab09beb1b361d/University_Canada_West_2x.jpg 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-fileid="4023" data-fileid2x="4021" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/f79/f79db3dd6abbb18f02600f697363fbc1/College_CDI_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/55b/55b4247763bef630a62a57f600416840/College_CDI_2x.jpg 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMzUiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="4027" data-fileid2x="4025" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/cb6/cb6f0f4426439711a0f369975d8c7a20/New_Brunswick_Community_College_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/cf1/cf172d1323f2f3b32c8c780319697e9c/New_Brunswick_Community_College_2x.jpg 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNzciPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="4031" data-fileid2x="4029" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/f85/f8544a2317953ef104feb38eeae34f67/Mohawk_College_1x.png" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/bd5/bd551c3787e3493d218162c13c7a0550/Mohawk_College_2x.png 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNTIiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="4035" data-fileid2x="4033" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/2b9/2b9a9311c70e148255673aa5cf7f3a9c/Seneca_College_1x.png" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/f27/f27859aec06e2b2a37275ca436ffd958/Seneca_College_2x.png 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iOTkiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="4037" data-fileid2x="4039" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/91b/91b1a7ca5131c109a115dff2260ef751/Manitoba_Institute_of_Trades_and_Technology_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/23f/23f234dccc60ad6c4aa688c9b7eeeb66/Manitoba_Institute_of_Trades_and_Technology_2x.jpg 2x" />
+					</a>
+				</div>
+			</div><div class="landing-block-card-carousel-item js-slide g-transition-0_2 g-px-10 col-6 col-sm-4 col-lg-2">
+				<div class="landing-block-card-container d-flex justify-content-center align-items-center flex-column h-100">
+					<a href="#" class="landing-block-card-logo-link" target="_self">
+						<img class="landing-block-node-carousel-img img-fluid g-max-width-170--md g-brd-around g-brd-gray-light-v1--hover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNjEiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="4043" data-fileid2x="4041" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/638/6387e33b2e9eb7361a6315d582f7f79e/Red_River_College_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/7c2/7c2f70fcf1ec169c70314b5c5f060b18/Red_River_College_2x.jpg 2x" />
+					</a>
+				</div>
+			</div></div>
+	</div>
+</section></div><div id="block411" class="block-wrapper block-04-7-one-col-fix-with-title-and-text-2"><section class="landing-block g-pt-60 g-bg-gray-light-v5 js-animation fadeInUp animated g-pb-20">
+
+        <div class="container text-center g-max-width-800">
+
+            <div class="landing-block-node-inner text-uppercase u-heading-v2-4--bottom g-brd-primary">
+                <h4 class="landing-block-node-subtitle g-font-weight-700 g-mb-15 g-color-black g-font-size-14">OUR SERVICES</h4>
+                <h2 class="landing-block-node-title u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-mb-minus-10 g-color-primary">WHAT WE <span style="color: rgb(33, 33, 33);">OFFER</span></h2>
+            </div>
+<!-- 
+			<div class="landing-block-node-text g-color-gray-dark-v3"><p>Donec eleifend mauris eu leo varius consectetur. Aliquam luctus a lorem ac rutrum. Cras in nulla id mi ornare vestibulum. Donec et magna nulla. Pellentesque ut ipsum id nibh pretium blandit quis ac erat.</p></div> -->
+        </div>
+
+    </section></div><div id="block413" class="block-wrapper block-44-3-four-columns-text-with-img"><section class="landing-block w-100 no-gutters">
+	<div class="js-carousel carouselTravel1 u-carousel-v5" data-infinite="true" data-slides-scroll="true" data-slides-show="4" data-arrows-classes="u-arrow-v1 g-pos-abs g-top-100 g-width-45 g-height-45 g-color-white g-bg-primary g-color-primary--hover g-bg-white--hover" data-arrow-left-classes="fa fa-chevron-left g-left-0" data-arrow-right-classes="fa fa-chevron-right g-right-0"><div class="landing-block-node-card js-slide g-theme-travel-bg-black-v1 g-bg-primary--hover ">
+			<article class="u-shadow-v26 g-parent g-transition-0_2 g-transition--ease-in">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMzY3Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="4119" data-fileid2x="4121" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/a05/a055e9f395a52d1e93d7d51e1278a464/academic-advising2_2x_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/e98/e98d733142617e7c8e23bb151c61d25b/academic-advising2_2x_2x.jpg 2x" />
+
+				<div class="text-center g-pa-45 landing-block-node-card-text-container js-animation fadeInUp">
+					<h3 class="landing-block-node-card-title text-uppercase g-font-weight-700 g-color-white g-mb-15">Academic Counselling</h3>
+					<div class="landing-block-node-card-text g-color-white-opacity-0_8 g-mb-35"><p>Based on your academic background and English language skills, we will guide you to choose the appropriate country that meets your requirements.
+						</p></div>
+				
+				</div>
+			</article>
+		</div><div class="landing-block-node-card js-slide g-theme-travel-bg-black-v1 g-bg-primary--hover ">
+			<article class="u-shadow-v26 g-parent g-transition-0_2 g-transition--ease-in">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMzY3Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="4047" data-fileid2x="4045" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/fec/fec7b4eb5d47f1999b4a87d6c7872004/PAGE_3_-alabama-architecture-auburn-university-207692_2x_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/579/5797caab2928c3243e1d1deccd8aa5a2/PAGE_3_-alabama-architecture-auburn-university-207692_2x_2x.jpg 2x" />
+
+				<div class="text-center g-pa-45 landing-block-node-card-text-container js-animation fadeInUp">
+					<h3 class="landing-block-node-card-title text-uppercase g-font-weight-700 g-color-white g-mb-15">University Selection</h3>
+					<div class="landing-block-node-card-text g-color-white-opacity-0_8 g-mb-35"><p>We work with over 100 universities and 200 colleges. This allows us to offer you a wide range of courses in your preferred locations.
+						</p></div>
+					
+				</div>
+			</article>
+		</div><div class="landing-block-node-card js-slide g-theme-travel-bg-black-v1 g-bg-primary--hover ">
+			<article class="u-shadow-v26 g-parent g-transition-0_2 g-transition--ease-in">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMzY3Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="4099" data-fileid2x="4101" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/a23/a232be5e1d193fd41b8178bb34737b4c/Visa_guidance_2x_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/aad/aad82e7ca4ef0f93ba40a74aa846d132/Visa_guidance_2x_2x.jpg 2x" />
+
+				<div class="text-center g-pa-45 landing-block-node-card-text-container js-animation fadeInUp">
+					<h3 class="landing-block-node-card-title text-uppercase g-font-weight-700 g-color-white g-mb-15">Application Submission</h3>
+					<div class="landing-block-node-card-text g-color-white-opacity-0_8 g-mb-35"><p>With offices in Canada, we ensure your applications are duly submitted and properly followed-up to ensure timely processing.
+						</p></div>
+				
+				</div>
+			</article>
+		</div><div class="landing-block-node-card js-slide g-theme-travel-bg-black-v1 g-bg-primary--hover ">
+			<article class="u-shadow-v26 g-parent g-transition-0_2 g-transition--ease-in">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMzY3Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="4143" data-fileid2x="4145" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/09f/09f8085343090c56849e5fe10db3fa5b/admission_2x_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/1c8/1c8340c62531ce0a1e572e2bd9265cd1/admission_2x_2x.jpg 2x" />
+
+				<div class="text-center g-pa-45 landing-block-node-card-text-container js-animation fadeInUp">
+					<h3 class="landing-block-node-card-title text-uppercase g-font-weight-700 g-color-white g-mb-15">College Admission</h3>
+					<div class="landing-block-node-card-text g-color-white-opacity-0_8 g-mb-35"><p>Being able to leverage with the colleges and universities in Canada, we provide the best turn around time in the market.. This facilitates the conversion of leads. Sooner is better for everyone.
+						</p></div>
+				
+				</div>
+			</article>
+		</div><div class="landing-block-node-card js-slide g-theme-travel-bg-black-v1 g-bg-primary--hover ">
+			<article class="u-shadow-v26 g-parent g-transition-0_2 g-transition--ease-in">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMzY3Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-fileid="4151" data-fileid2x="4153" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/11c/11c81e76f0093c86ea190e5282a4f204/immigration-lawyer-PHOTO-1-1200x800_2x_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/f0e/f0e3117b3a1d24872da2165c9ae221f0/immigration-lawyer-PHOTO-1-1200x800_2x_2x.jpg 2x" />
+
+				<div class="text-center g-pa-45 landing-block-node-card-text-container js-animation fadeInUp">
+					<h3 class="landing-block-node-card-title text-uppercase g-font-weight-700 g-color-white g-mb-15">Visa Guidance</h3>
+					<div class="landing-block-node-card-text g-color-white-opacity-0_8 g-mb-35"><p>Our immigration consultants provide appropriate visa guidance including all the paperwork needed to obtain visa. We have an exceptional 95% acceptance rate.
+						</p></div>
+			
+				</div>
+			</article>
+		</div><div class="landing-block-node-card js-slide g-theme-travel-bg-black-v1 g-bg-primary--hover ">
+			<article class="u-shadow-v26 g-parent g-transition-0_2 g-transition--ease-in">
+				<img class="landing-block-node-card-img img-fluid w-100" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iNDgwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/570x436/img6.jpg" loading="lazy" />
+
+				<div class="text-center g-pa-45 landing-block-node-card-text-container js-animation fadeInUp">
+					<h3 class="landing-block-node-card-title text-uppercase g-font-weight-700 g-color-white g-mb-15">Post Arrival Services</h3>
+					<div class="landing-block-node-card-text g-color-white-opacity-0_8 g-mb-35"><p>We offer airport pickup services to our clients and help them register in our offices so we never loose track of them. Accommodation, College registration and other formalities are taken care of to help client get started.
+						</p></div>
+			
+				</div>
+			</article>
+		</div></div>
+</section></div><div id="block407" class="block-wrapper block-04-7-one-col-fix-with-title-and-text-2"><section class="landing-block g-pb-20 g-bg-white g-pt-60 js-animation fadeInUp animated">
+
+        <div class="container text-center g-max-width-800">
+
+            <div class="landing-block-node-inner text-uppercase u-heading-v2-4--bottom g-brd-primary">
+                <h4 class="landing-block-node-subtitle g-font-weight-700 g-mb-15 g-color-black g-font-size-14">SPECIAL OFFERS</h4>
+                <h2 class="landing-block-node-title u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-mb-minus-10 g-color-primary g-font-size-40">DON&#039;T MISS <span style="color: rgb(33, 33, 33);">THIS</span></h2>
+            </div>
+
+			<div class="landing-block-node-text g-color-gray-dark-v3"><p>Check out our special offers! We update them on a time to time basis. Referral bonus and Tim Hortons winter giveaways are always available to our clients.</p></div>
+        </div>
+
+    </section></div><div id="block409" class="block-wrapper block-44-5-three-cols-images-with-price"><section class="landing-block g-pt-90 g-pb-90">
+	<div class="container">
+	
+	</div>
+</section></div><div id="block421" class="block-wrapper block-04-7-one-col-fix-with-title-and-text-2"><section class="landing-block g-pt-60 g-bg-gray-light-v4 js-animation fadeInUp animated g-pb-20">
+
+        <div class="container text-center g-max-width-800">
+
+            <div class="landing-block-node-inner text-uppercase u-heading-v2-4--bottom g-brd-primary">
+                <h4 class="landing-block-node-subtitle g-font-weight-700 g-mb-15 g-font-size-14 g-color-black">Testimonials</h4>
+                <h2 class="landing-block-node-title u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-mb-minus-10 g-color-primary">what CLIENTS <span style="color: rgb(33, 33, 33);">say</span></h2>
+            </div>
+
+			<div class="landing-block-node-text g-color-gray-dark-v3"><p>Check out the testimonials on Google, Facebook as well.</p></div>
+        </div>
+
+    </section></div><div id="block423" class="block-wrapper block-23-big-carousel-blocks">
+		<section class="landing-block js-animation g-pt-20 g-bg-gray-light-v4 fadeIn animated g-pb-60" style="background-color: black !important;">
+
+         <div class="js-carousel" data-autoplay="true" data-pause-hover="true" data-infinite="true" data-speed="10000" data-slides-show="4" data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-45 g-height-60 g-font-size-60 g-color-white g-bg-primary" data-arrow-left-classes="fa fa-angle-left g-left-10" data-arrow-right-classes="fa fa-angle-right g-right-10" data-responsive="[{
+               &quot;breakpoint&quot;: 1200,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 4
+               }
+             }, {
+               &quot;breakpoint&quot;: 992,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 2
+               }
+             }, {
+               &quot;breakpoint&quot;: 576,
+               &quot;settings&quot;: {
+                 &quot;slidesToShow&quot;: 1
+               }
+             }]"><div class="landing-block-card-carousel-element js-slide g-pt-60 g-pb-5 g-px-15">
+                <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
+                    <img class="landing-block-node-img rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-brd-gray-light-v5 g-pull-50x-up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/500x500/img1.jpg" loading="lazy" />
+
+                    <h4 class="landing-block-node-title text-uppercase g-font-weight-700 mb-0">Vasu Vandan kodakandla</h4>
+                    <div class="landing-block-node-subtitle text-uppercase g-font-style-normal g-font-weight-700 g-font-size-10 g-color-gray-dark-v5">India</div>
+                    <blockquote class="landing-block-node-text u-blockquote-v7 g-line-height-1_5 g-color-gray-dark-v5 g-bg-primary--before mb-0">It was a pleasure being with your team and once again thanks for your time and efforts. I would warmly recommend Caned consultancy and friendly service to for a smooth, easy and welcoming immigration experience.  Here Agents are very helpful throughout the end-to-end process. All the best!!!</blockquote>
+                </div>
+            </div><div class="landing-block-card-carousel-element js-slide g-pt-60 g-pb-5 g-px-15">
+                <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
+                    <img class="landing-block-node-img rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-brd-gray-light-v5 g-pull-50x-up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/500x500/img7.jpg" loading="lazy" />
+
+                    <h4 class="landing-block-node-title text-uppercase g-font-weight-700 mb-0">Gagandeep Singh </h4>
+                    <div class="landing-block-node-subtitle text-uppercase g-font-style-normal g-font-weight-700 g-font-size-10 g-color-gray-dark-v5">Punjab</div>
+                    <blockquote class="landing-block-node-text u-blockquote-v7 g-line-height-1_5 g-color-gray-dark-v5 g-bg-primary--before mb-0">Heloo friends meh is consultancy deh through apply kita ateh mere kol time vi bhutt khatt c pr menu Ravi sir neh offer letter ek week ch provide kita and course bi meri choice dah dilwaya and inha neh mera study permit extend ch vi bhutt help kiti and Ravi sir bhut supportive and helpful person neh jo ki students di situation nu samjde neh and baki consultant di tarah money demanding nhi neh so meh saryenu nu Caned Caned consultancy refer krda.
+Thanks.</blockquote>
+                </div>
+            </div><div class="landing-block-card-carousel-element js-slide g-pt-60 g-pb-5 g-px-15">
+                <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
+                    <img class="landing-block-node-img rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-brd-gray-light-v5 g-pull-50x-up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/500x500/img9.jpg" loading="lazy" />
+
+                    <h4 class="landing-block-node-title text-uppercase g-font-weight-700 mb-0">Kinjal Patel</h4>
+                    <div class="landing-block-node-subtitle text-uppercase g-font-style-normal g-font-weight-700 g-font-size-10 g-color-gray-dark-v5">USA</div>
+                    <blockquote class="landing-block-node-text u-blockquote-v7 g-line-height-1_5 g-color-gray-dark-v5 g-bg-primary--before mb-0">I would like to say thank you to CanEd Consulting for help me getting my admission and Visa. I have applied from USA. I have good experience with them. I have recommend CanEd Consulting.
+Specially thanks to Ravi sir and Priyavadan.</blockquote>
+                </div>
+            </div><div class="landing-block-card-carousel-element js-slide g-pt-60 g-pb-5 g-px-15">
+                <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
+                    <img class="landing-block-node-img rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-brd-gray-light-v5 g-pull-50x-up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/500x500/img3.jpg" loading="lazy" />
+
+                    <h4 class="landing-block-node-title text-uppercase g-font-weight-700 mb-0">Tanuheer</h4>
+                    <div class="landing-block-node-subtitle text-uppercase g-font-style-normal g-font-weight-700 g-font-size-10 g-color-gray-dark-v5">India</div>
+                    <blockquote class="landing-block-node-text u-blockquote-v7 g-line-height-1_5 g-color-gray-dark-v5 g-bg-primary--before mb-0">I have the best experience with CanEd Consultants. The staff of this institute is very supportive and understandable.</blockquote>
+                </div>
+            </div><div class="landing-block-card-carousel-element js-slide g-pt-60 g-pb-5 g-px-15">
+                <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
+                    <img class="landing-block-node-img rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-brd-gray-light-v5 g-pull-50x-up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/500x500/img4.jpg" loading="lazy" />
+
+                    <h4 class="landing-block-node-title text-uppercase g-font-weight-700 mb-0">Patan Sohel</h4>
+                    <div class="landing-block-node-subtitle text-uppercase g-font-style-normal g-font-weight-700 g-font-size-10 g-color-gray-dark-v5">India</div>
+                    <blockquote class="landing-block-node-text u-blockquote-v7 g-line-height-1_5 g-color-gray-dark-v5 g-bg-primary--before mb-0">It was quite hard for me to get admission as I have backlogs I have visited all consulting partners in hyderabad no one accepted my application as I have low percentage in my bachelor degree, thanks to CanEd 🍁 Consulting for accepting my application I got offer letter from conestoga College 🎓
+Special thanks to Vadan for helping me with every step I really appreciate your help and patience
+
+I will recommend this to everyone who want to study and settle in 🍁 Canada</blockquote>
+                </div>
+            </div><div class="landing-block-card-carousel-element js-slide g-pt-60 g-pb-5 g-px-15">
+                <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
+                    <img class="landing-block-node-img rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-brd-gray-light-v5 g-pull-50x-up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg==" alt="" srcset="" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.site/bitrix/images/landing/business/500x500/img6.jpg" loading="lazy" />
+
+                    <h4 class="landing-block-node-title text-uppercase g-font-weight-700 mb-0">Amal Viju</h4>
+                    <div class="landing-block-node-subtitle text-uppercase g-font-style-normal g-font-weight-700 g-font-size-10 g-color-gray-dark-v5">Kerala</div>
+                    <blockquote class="landing-block-node-text u-blockquote-v7 g-line-height-1_5 g-color-gray-dark-v5 g-bg-primary--before mb-0">Great experience, 100% trustfull. They took admission for me in Cambrian College and got call letter within a week. Was very helpful. Great service</blockquote>
+                </div>
+            </div></div>
+
+    </section></div><div id="block415" class="block-wrapper block-04-7-one-col-fix-with-title-and-text-2"><section class="landing-block g-pt-60 g-bg-white js-animation fadeInUp animated g-pb-20">
+
+        <div class="container text-center g-max-width-800">
+
+            <div class="landing-block-node-inner text-uppercase u-heading-v2-4--bottom g-brd-primary">
+                <h4 class="landing-block-node-subtitle g-font-weight-700 g-mb-15 g-font-size-14 g-color-black">OUR GALLERY</h4>
+                <h2 class="landing-block-node-title u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-mb-minus-10 g-color-primary">INTERESTING <span style="color: rgb(33, 33, 33);">SHOTS</span></h2>
+            </div>
+
+			<div class="landing-block-node-text g-color-gray-dark-v3"><p>Will be updated soon.</p></div>
+        </div>
+
+    </section></div><div id="block417" class="block-wrapper block-32-3-img-grid-1-2cols-1-no-gutters"><section class="landing-block g-pt-0 g-pb-0">
+		<div class="row no-gutters js-gallery-cards">
+
+			<div class="col-12 col-md-6 g-min-height-540 g-max-height-810">
+				<div class="h-100">
+					<div class="landing-block-node-img-container h-100 g-pos-rel g-parent u-block-hover">
+						<img data-fancybox="gallery" class="landing-block-node-img-big img-fluid g-object-fit-cover h-100 w-100 u-block-hover__main--zoom-v1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjE2MjAiPjxyZWN0IGlkPSJiYWNrZ3JvdW5kcmVjdCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgeD0iMCIgeT0iMCIgZmlsbD0iI2RkZCIgZmlsbC1vcGFjaXR5PSIuNyIgc3Ryb2tlPSJub25lIi8+PC9zdmc+" alt="" data-fileid="4183" data-filehash="9eef207add73028ae50f74a9033c20cb" data-fileid2x="4185" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/b55/b55dddcb5b87e010827f89047efa2224/pexels-helmi-lutvyandi-3978518_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/001/0012efa4b2566eae287f1cee19e0937d/pexels-helmi-lutvyandi-3978518_2x.jpg 2x" />
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 g-min-height-540 g-max-height-810">
+				<div class="h-50">
+					<div class="landing-block-node-img-container h-100 g-pos-rel g-parent u-block-hover">
+						<img data-fancybox="gallery" class="landing-block-node-img-small img-fluid g-object-fit-cover h-100 w-100 u-block-hover__main--zoom-v1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjYxMiI+PHJlY3QgaWQ9ImJhY2tncm91bmRyZWN0IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4PSIwIiB5PSIwIiBmaWxsPSIjZGRkIiBmaWxsLW9wYWNpdHk9Ii43IiBzdHJva2U9Im5vbmUiLz48L3N2Zz4=" alt="" data-fileid="4187" data-filehash="9eef207add73028ae50f74a9033c20cb" data-fileid2x="4189" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/4cb/4cb4120b9f6497daac486b6e038e7cb6/Saint_Marys_HFX_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/853/853efc0511a20a655f5844333f37bd69/Saint_Marys_HFX_2x.jpg 2x" />
+					</div>
+				</div>
+
+				<div class="h-50">
+					<div class="landing-block-node-img-container h-100 g-pos-rel g-parent u-block-hover">
+						<img data-fancybox="gallery" class="landing-block-node-img-small img-fluid g-object-fit-cover h-100 w-100 u-block-hover__main--zoom-v1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjcyMCI+PHJlY3QgaWQ9ImJhY2tncm91bmRyZWN0IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4PSIwIiB5PSIwIiBmaWxsPSIjZGRkIiBmaWxsLW9wYWNpdHk9Ii43IiBzdHJva2U9Im5vbmUiLz48L3N2Zz4=" alt="" data-fileid="4211" data-filehash="9eef207add73028ae50f74a9033c20cb" data-fileid2x="4213" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/5fb/5fb31432310dbde21ed8a4be356f3d7e/pexels-nav-photography-5458388_1_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/e38/e38a2896830eb570acfca9b081dfa0d1/pexels-nav-photography-5458388_1_2x.jpg 2x" />
+					</div>
+				</div>
+			</div>
+		</div>
+</section></div><div id="block419" class="block-wrapper block-32-5-img-grid-3cols-1-wo-gutters"><section class="landing-block g-pt-0 g-pb-0">
+
+	<div class="row no-gutters js-gallery-cards">
+
+		<div class="col-12 col-sm-4">
+			<div class="h-100">
+				<div class="landing-block-node-img-container h-100 g-pos-rel g-parent u-block-hover landing-block-node-img-container-center js-animation fadeInLeft">
+					<img data-fancybox="gallery" class="landing-block-node-img img-fluid g-object-fit-cover h-100 w-100 u-block-hover__main--zoom-v1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjY0OCI+PHJlY3QgaWQ9ImJhY2tncm91bmRyZWN0IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4PSIwIiB5PSIwIiBmaWxsPSIjZGRkIiBmaWxsLW9wYWNpdHk9Ii43IiBzdHJva2U9Im5vbmUiLz48L3N2Zz4=" alt="" data-fileid="4167" data-filehash="9eef207add73028ae50f74a9033c20cb" data-fileid2x="4169" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/228/228736c51993a5fc2fa11f8edae58c49/pexels-james-wheeler-1571442_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/5c5/5c5acc827d77d6b489f0334a5a7a0133/pexels-james-wheeler-1571442_2x.jpg 2x" />
+				</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-sm-4">
+			<div class="h-100">
+				<div class="landing-block-node-img-container h-100 g-pos-rel g-parent u-block-hover landing-block-node-img-container-center js-animation fadeInLeft">
+					<img data-fancybox="gallery" class="landing-block-node-img img-fluid g-object-fit-cover h-100 w-100 u-block-hover__main--zoom-v1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjcwNyI+PHJlY3QgaWQ9ImJhY2tncm91bmRyZWN0IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4PSIwIiB5PSIwIiBmaWxsPSIjZGRkIiBmaWxsLW9wYWNpdHk9Ii43IiBzdHJva2U9Im5vbmUiLz48L3N2Zz4=" alt="" data-fileid="4199" data-filehash="9eef207add73028ae50f74a9033c20cb" data-fileid2x="4201" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/10a/10afc60953956ed9206fe59da799ffe1/pexels-andrea-piacquadio-3769138_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/1b6/1b6582dda88e22b88a7ec4b667b9a49c/pexels-andrea-piacquadio-3769138_2x.jpg 2x" />
+				</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-sm-4">
+			<div class="h-100">
+				<div class="landing-block-node-img-container h-100 g-pos-rel g-parent u-block-hover landing-block-node-img-container-center js-animation fadeInLeft">
+					<img data-fancybox="gallery" class="landing-block-node-img img-fluid g-object-fit-cover h-100 w-100 u-block-hover__main--zoom-v1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjcyMCI+PHJlY3QgaWQ9ImJhY2tncm91bmRyZWN0IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4PSIwIiB5PSIwIiBmaWxsPSIjZGRkIiBmaWxsLW9wYWNpdHk9Ii43IiBzdHJva2U9Im5vbmUiLz48L3N2Zz4=" alt="" data-fileid="4195" data-filehash="9eef207add73028ae50f74a9033c20cb" data-fileid2x="4197" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" data-lazy-img="Y" data-src="https://cdn.bitrix24.com/b10245137/landing/efd/efdf1f057f55e0ac667d32597bf4ce90/pexels-fox-1595391_1x.jpg" loading="lazy" data-srcset="https://cdn.bitrix24.com/b10245137/landing/16b/16bf4e6a46cb51bf0a807893d3dc44c9/pexels-fox-1595391_2x.jpg 2x" />
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</section></div><div id="block425" class="block-wrapper block-27-one-col-fix-title-and-text-2">
+	<section class="landing-block g-bg-primary g-pt-60 js-animation fadeInUp animated g-pb-20" style="background-color: black !important;">
+
+        <div class="container g-max-width-800 g-py-20" >
+            <div class="text-center g-mb-20">
+                <h2 class="landing-block-node-title g-font-weight-400 g-font-size-14 g-color-white"><span style="font-weight: bold;">CONTACT US</span></h2>
+                <div class="landing-block-node-text g-font-size-40 g-color-white"><p><span style="font-weight: bold; color: red;" >GET IN <span style="">TOUCH</span></span></p></div>
+            </div>
+        </div>
+
+    </section></div><div id="block431" class="block-wrapper block-14-1-contacts-4-cols"><section class="landing-block g-pt-40 g-pb-25 text-center">
+	<div class="container">
+		<div class="row justify-content-center"><div class="landing-block-card js-animation fadeIn landing-block-node-contact g-brd-between-cols col-sm-6 col-md-6 col-lg-3 g-brd-primary g-px-15 g-py-30 g-py-0--md g-mb-15" data-card-preset="contact-link">
+				<a class="landing-block-node-linkcontact-link g-text-decoration-none--hover" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2304.457421907711!2d20.486353716222904!3d54.71916848028964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x284054d2fac2875d!2z0JHQuNGC0YDQuNC60YEyNA!5e0!3m2!1sru!2sru!4v1536590497258" target="_popup">
+					<span class="landing-block-node-contact-icon-container d-block g-color-primary g-font-size-50 g-line-height-1 g-mb-20">
+						<i class="landing-block-node-linkcontact-icon icon-globe" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}"></i>
+					</span>
+					<span class="landing-block-node-linkcontact-title d-block text-uppercase g-font-size-14 g-color-main g-mb-5">Address</span>
+					<span class="landing-block-node-linkcontact-text g-text-decoration-none g-text-underline--hover g-font-size-14 g-font-weight-700">2 Robert Speck Pkwy Suite 750, Mississauga, ON L4Z 1H8</span>
+				</a>
+			</div>
+			<div class="landing-block-card js-animation fadeIn landing-block-node-contact g-brd-between-cols col-sm-6 col-md-6 col-lg-3 g-brd-primary g-px-15 g-py-30 g-py-0--md g-mb-15" data-card-preset="contact-link">
+				<a class="landing-block-node-linkcontact-link g-text-decoration-none--hover" href="tel:+19053342089" target="_blank">
+					<span class="landing-block-node-contact-icon-container d-block g-color-primary g-font-size-50 g-line-height-1 g-mb-20">
+						<i class="landing-block-node-linkcontact-icon icon-call-in" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}"></i>
+					</span>
+					<span class="landing-block-node-linkcontact-title d-block text-uppercase g-font-size-14 g-color-main g-mb-5">Phone number</span>
+					<span class="landing-block-node-linkcontact-text g-text-decoration-none g-text-underline--hover g-font-size-14 g-font-weight-700">+1 (647) 621-2582</span>
+				</a>
+			</div>
+			<div class="landing-block-card js-animation fadeIn landing-block-node-contact g-brd-between-cols col-sm-6 col-md-6 col-lg-3 g-brd-primary g-px-15 g-py-30 g-py-0--md g-mb-15" data-card-preset="contact-link">
+				<a class="landing-block-node-linkcontact-link g-text-decoration-none--hover" href="mailto:info@canedconsulting.ca" target="_blank">
+					<span class="landing-block-node-contact-icon-container d-block g-color-primary g-font-size-50 g-line-height-1 g-mb-20">
+						<i class="landing-block-node-linkcontact-icon icon-envelope" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}"></i>
+					</span>
+					<span class="landing-block-node-linkcontact-title d-block text-uppercase g-font-size-14 g-color-main g-mb-5">Email</span>
+					<span class="landing-block-node-linkcontact-text g-text-decoration-none g-text-underline--hover g-font-size-14 g-font-weight-700">info@caopportunities.com</span>
+				</a>
+			</div>
+			<div class="landing-block-card js-animation fadeIn landing-block-node-contact g-brd-between-cols col-sm-6 col-md-6 col-lg-3 g-brd-primary g-px-15 g-py-30 g-py-0--md g-mb-15" data-card-preset="contact-text">
+				<div class="landing-block-node-contact-container">
+					<span class="landing-block-node-contact-icon-container d-block g-color-primary g-font-size-50 g-line-height-1 g-mb-20">
+						<i class="landing-block-node-contact-icon icon-earphones-alt" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}"></i>
+					</span>
+					<span class="landing-block-node-contact-title d-block text-uppercase g-font-size-14 g-color-main g-mb-5">Toll free</span>
+					<span class="landing-block-node-contact-text g-font-size-14 g-font-weight-700">@coming soon</span>
+				</div>
+			</div></div>
+	</div>
+</section></div>
+<!-- <div id="block433" class="block-wrapper block-15-social"> -->
+	
+	<!-- <section class="landing-block">
+
+	<ul class="row no-gutters list-inline g-mb-0">
+
+		<li class="landing-block-node-list-item col g-pl-0 g-pr-0 g-pt-0 g-pb-0 g-min-width-110 list-inline-item g-mr-0" data-card-preset="facebook">
+			<a class="landing-block-node-list-item-link d-block g-color-white text-center g-pt-15 g-pb-15 g-pl-30 g-pr-30 g-bg-facebook--hover g-bg-facebook"
+			   href="https://facebook.com/" target="_blank">
+				<i class="landing-block-node-list-item-icon fa fa-facebook"></i>
+			</a>
+		</li>
+
+		<li class="landing-block-node-list-item col g-pl-0 g-pr-0 g-pt-0 g-pb-0 g-min-width-110 list-inline-item g-mr-0" data-card-preset="instagram">
+			<a class="landing-block-node-list-item-link d-block g-color-white text-center g-pt-15 g-pb-15 g-pl-30 g-pr-30 g-bg-instagram--hover g-bg-instagram"
+			   href="https://instagram.com/" target="_blank">
+				<i class="landing-block-node-list-item-icon fa fa-instagram"></i>
+			</a>
+		</li>
+		
+		<li class="landing-block-node-list-item col g-pl-0 g-pr-0 g-pt-0 g-pb-0 g-min-width-110 list-inline-item g-mr-0" data-card-preset="twitter">
+			<a class="landing-block-node-list-item-link d-block g-color-white text-center g-pt-15 g-pb-15 g-pl-30 g-pr-30 g-bg-twitter--hover g-bg-twitter"
+			   href="https://twitter.com/" target="_blank">
+				<i class="landing-block-node-list-item-icon fa fa-twitter"></i>
+			</a>
+		</li>
+
+		<li class="landing-block-node-list-item col g-pl-0 g-pr-0 g-pt-0 g-pb-0 g-min-width-110 list-inline-item g-mr-0" data-card-preset="youtube">
+			<a class="landing-block-node-list-item-link d-block g-color-white text-center g-pt-15 g-pb-15 g-pl-30 g-pr-30 g-bg-youtube--hover g-bg-youtube"
+			   href="https://youtube.com/" target="_blank">
+				<i class="landing-block-node-list-item-icon fa fa-youtube"></i>
+			</a>
+		</li>
+
+		<li class="landing-block-node-list-item col g-pl-0 g-pr-0 g-pt-0 g-pb-0 g-min-width-110 list-inline-item g-mr-0" data-card-preset="telegram">
+			<a class="landing-block-node-list-item-link d-block g-color-white text-center g-pt-15 g-pb-15 g-pl-30 g-pr-30 g-bg-telegram--hover g-bg-telegram"
+			   href="https://telegram.org/" target="_blank">
+				<i class="landing-block-node-list-item-icon fa fa-telegram"></i>
+			</a>
+		</li>
+
+		<li class="landing-block-node-list-item col g-pl-0 g-pr-0 g-pt-0 g-pb-0 g-min-width-110 list-inline-item g-mr-0" data-card-preset="whatsapp">
+			<a class="landing-block-node-list-item-link d-block g-color-white text-center g-pt-15 g-pb-15 g-pl-30 g-pr-30 g-bg-whatsapp--hover g-bg-whatsapp"
+			   href="https://whatsapp.org/" target="_blank">
+				<i class="landing-block-node-list-item-icon fa fa-whatsapp"></i>
+			</a>
+		</li>
+
+		
+
+
+	</ul>
+
+</section></div> -->
+<div id="block427" class="block-wrapper block-17-copyright"><section class="landing-block js-animation animation-none">
+	<div class="text-center g-color-gray-dark-v3 g-pa-10">
+		<div class="g-width-600 mx-auto">
+			<div class="landing-block-node-text g-font-size-12  js-animation animation-none"><p>© 2021 All rights reserved.</p></div>
+		</div>
+	</div>
+</section></div>
+</main>
+<script data-skip-moving="true">
+					(function(w,d,u,b){ 'use strict';
+					var s=d.createElement('script');var r=(Date.now()/1000|0);s.async=1;s.src=u+'?'+r;
+					var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+				})(window,document,'./cdn.bitrix24.com/b10245137/crm/site_button/loader_2_fjxqqv.js');
+				</script>
+				 <!-- <div class="bitrix-footer"> -->
+			<!-- <span class="bitrix-footer-text">
+			Powered by <a target="_blank" href="https://bitrix24.com/?utm_medium=referral&amp;utm_source=bitrix24.com&amp;utm_campaign=com_sites_bitrix24_logo"><img src="bitrix/components/bitrix/landing.pub/templates/.default/images/enc4ca.svg?1" alt="Bitrix24"></a> &mdash; <a class="bitrix-footer-link" target="_blank" href="https://bitrix24.com/tools/websites/?utm_medium=referral&amp;utm_source=bitrix24.com&amp;utm_campaign=com_sites_websites">Free websites</a> and <a class="bitrix-footer-link" target="_blank" href="https://bitrix24.com/tools/crm/?utm_medium=referral&amp;utm_source=bitrix24.com&amp;utm_campaign=com_sites_crm">CRM</a>. <a class="bitrix-footer-link" target="_blank" href="https://bitrix24.com/create.php?b24_type=sites">Create your site</a>		</span> -->
+			<!-- </div> -->
+
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Loading...','JS_CORE_WINDOW_CLOSE':'Close','JS_CORE_WINDOW_EXPAND':'Expand','JS_CORE_WINDOW_NARROW':'Restore','JS_CORE_WINDOW_SAVE':'Save','JS_CORE_WINDOW_CANCEL':'Cancel','JS_CORE_H':'h','JS_CORE_M':'m','JS_CORE_S':'s','JS_CORE_NO_DATA':'- No data -','JSADM_AI_HIDE_EXTRA':'Hide extra items','JSADM_AI_ALL_NOTIF':'All notifications','JSADM_AUTH_REQ':'Authentication is required!','JS_CORE_WINDOW_AUTH':'Log In','JS_CORE_IMAGE_FULL':'Full size','JS_CORE_WINDOW_CONTINUE':'Continue'});</script><script type="text/javascript" src="bitrix/js/main/core/core.mine7c9.js?1620727877260438"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','bitrix/js/main/core/core_promise.js','bitrix/js/main/polyfill/promise/js/promise.js','bitrix/js/main/loadext/loadext.js','bitrix/js/main/loadext/extension.js','bitrix/js/main/polyfill/promise/js/promise.js','bitrix/js/main/polyfill/find/js/find.js','bitrix/js/main/polyfill/includes/js/includes.js','bitrix/js/main/polyfill/matches/js/matches.js','bitrix/js/ui/polyfill/closest/js/closest.html','bitrix/js/main/polyfill/fill/main.polyfill.fill.js','bitrix/js/main/polyfill/find/js/find.js','bitrix/js/main/polyfill/matches/js/matches.js','bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','bitrix/js/main/core/core.js','bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','bitrix/js/main/lazyload/dist/lazyload.bundle.js','bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'pull_server_enabled':'Y','pull_config_timestamp':'1604570158','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'This page must be reloaded to ensure proper site functioning and to continue work.'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'CORE_CLIPBOARD_COPY_SUCCESS':'Copy done','CORE_CLIPBOARD_COPY_FAILURE':'Copy failed'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'MAIN_SIDEPANEL_CLOSE':'Close','MAIN_SIDEPANEL_PRINT':'Print','MAIN_SIDEPANEL_NEW_WINDOW':'Open in a new window','MAIN_SIDEPANEL_COPY_LINK':'Copy link'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'en','FORMAT_DATE':'MM/DD/YYYY','FORMAT_DATETIME':'MM/DD/YYYY H:MI:SS T','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1624556448','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'f6316acdb5f75ec8d465b4eaf7541aac'});</script><script type="text/javascript" src="bitrix/js/main/polyfill/customevent/main.polyfill.customevent.min5517.js?1544619813556"></script>
+<script type="text/javascript" src="bitrix/js/ui/dexie/dist/dexie.bitrix.bundle.min6693.js?159049177860291"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_ls.minfe17.js?14328944187365"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_fx.minc224.js?14909536449768"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_frame_cache.mind416.js?161614700311082"></script>
+<script type="text/javascript" src="bitrix/js/pull/protobuf/protobuf.mina16c.js?159231549176433"></script>
+<script type="text/javascript" src="bitrix/js/pull/protobuf/model.min3e57.js?159231549114190"></script>
+<script type="text/javascript" src="bitrix/js/rest/client/rest.client.min4924.js?16015491189240"></script>
+<script type="text/javascript" src="bitrix/js/pull/client/pull.client.min4440.js?161968594743841"></script>
+<script type="text/javascript" src="bitrix/js/landing/metrika/dist/metrika.bundle.min5f3d.js?16239365903054"></script>
+<script type="text/javascript" src="bitrix/js/main/pageobject/pageobject.min0a66.js?1584117434570"></script>
+<script type="text/javascript" src="bitrix/js/main/popup/dist/main.popup.bundle.min5301.js?162047417061026"></script>
+<script type="text/javascript" src="bitrix/js/main/core/core_clipboard.minf237.js?16128673042222"></script>
+<script type="text/javascript" src="bitrix/js/main/sidepanel/manager.min12cb.js?162221961619285"></script>
+<script type="text/javascript" src="bitrix/js/main/sidepanel/slider.minbe23.js?162221961630512"></script>
+<script type="text/javascript" src="bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.min367c.js?15362428577124"></script>
+<script type="text/javascript">var bxDate = new Date(); document.cookie="BITRIX_SM_TIME_ZONE="+bxDate.getTimezoneOffset()+"; path=/; expires=Wed, 01 Jun 2022 00:00:00 +0300"</script>
+<script>
+	(function(w,d,u){
+		var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+		var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+	})(window,document,'./cdn.bitrix24.com/b10245137/landing/assets/assets_webpack_3771e80147_1624556428.js');
+</script>
+
+
+
+<script type="text/javascript" src="bitrix/templates/landing24/assets/js/helpers/lazyload.min1db3.js?15994906851713"></script>
+<script type="text/javascript" src="bitrix/components/bitrix/landing.pub/templates/.default/script.minc6d9.js?16085558823456"></script>
+<script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "bc2cad9153cb418bb2dfd5602c3c3754"]); _ba.push(["host", "caned.bitrix24.com"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<script>
+	(function()
+	{
+		new BX.Landing.Metrika();
+	})();
+</script>
+
+<script>
+	(function(w,d,u){
+		var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+		var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+	})(window,document,'./cdn.bitrix24.com/b10245137/crm/tag/call.tracker.js');
+</script>
+
+
+
+
+<!-- cusom code -->
+
+<!-- floating icons -->
+
+
+    
+<div class="adminActions">
+    <input type="checkbox" name="adminToggle" class="adminToggle" />
+    <a class="adminButton" href="#!"><i class="fa fa-cog"></i></a>
+    <div class="adminButtons">
+      <!-- <a href="#" title="Add Company"><i class="fa fa-building"></i></a> -->
+      <a href="#" title="Feedback"  onclick="openForm()"><i class="fa fa-pen"></i></a>
+      <!-- <a href="#" title="Add User"><i class="fa fa-user-plus"></i></a>
+      <a href="#" title="Edit User"><i class="fa fa-user-edit"></i></a> -->
+    </div>
+  </div>
+ 
+
+<!-- feedback form -->
+
+<script>
+
+
+	window.onload = function() {
+				document.getElementById('feedback').addEventListener('submit', function(event) {
+					event.preventDefault();
+					console.log('im got hit bro')
+					// generate a five digit number for the contact_number variable
+					// this.contact_number.value = Math.random() * 100000 | 0;
+					// these IDs from the previous steps
+					emailjs.sendForm('service_cf8xtxo', 'template_selb1qs', this, 'user_8yGhks27A6DAJujHb8CsI')
+						.then(function() {
+							console.log('SUCCESS!');
+							document.getElementById("myForm").style.display = "none";
+						}, function(error) {
+							console.log('FAILED...', error);
+						});
+				});
+			}
+	  </script>
+	
+
+
+<div class="form-popup" id="myForm">
+
+	<form class="form-container" id="feedback" >
+	  <center><h2>Queries</h2></center>
+  
+	  
+	  <input type="text" placeholder="First Name" name="first_name" required>
+  
+	  <input type="text" placeholder="Last Name" name="last_name" required>
+  
+	  <input type="text" placeholder="Phone" name="phone" required>
+  
+	  <input type="text" placeholder="E-mail" name="e_mail" required>
+  
+	  <textarea rows="5" type="text" name="comment" style="font-family: Arial, Helvetica, sans-serif;" placeholder="Query"></textarea>
+  
+  
+	 
+	  
+  
+	  
+  
+	  <button type="submit" class="btn" style="background-color: #fc4366;">Submit</button>
+	  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+	</form>
+  </div>
+   
+  
+  <script>
+	function openForm() {
+	  document.getElementById("myForm").style.display = "block";
+	}
+	
+	function closeForm() {
+	  document.getElementById("myForm").style.display = "none";
+	}
+	</script>
+
+</body>
+
+</html>
